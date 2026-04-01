@@ -11,7 +11,8 @@ const Fishing = () => {
               Pesque e Solte
             </h2>
             <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-              Pesca esportiva para quem ama a natureza e a emoção de fisgar um grande peixe!
+              Pesca esportiva para quem ama a natureza e a emoção de fisgar um
+              grande peixe!
             </p>
           </div>
 
@@ -22,7 +23,8 @@ const Fishing = () => {
                 Pesque, Pese e Meça
               </h3>
               <p className="text-sm text-muted-foreground font-body">
-                Pesque seu peixe, pese, meça e tire fotos incríveis para registrar o momento!
+                Pesque seu peixe, pese, meça e tire fotos incríveis para
+                registrar o momento!
               </p>
             </div>
 
@@ -32,17 +34,24 @@ const Fishing = () => {
                 Fotos & Recordações
               </h3>
               <p className="text-sm text-muted-foreground font-body">
-                Registre cada conquista! Tire fotos com seus troféus antes de devolver ao lago.
+                Registre cada conquista! Tire fotos com seus troféus antes de
+                devolver ao lago. Não tirar a foto com o peixe em pé, sempre
+                agachado para evitar que o peixe caia de uma altura que o mate.
               </p>
             </div>
 
             <div className="bg-card rounded-xl p-8 border border-border text-center hover:shadow-lg transition-shadow">
               <Ban className="w-10 h-10 text-warm mx-auto mb-4" />
               <h3 className="text-lg font-semibold font-display text-foreground mb-2">
-                Não Vendemos Peixes
+                Regras de Pesca Esportiva
               </h3>
               <p className="text-sm text-muted-foreground font-body">
-                Praticamos exclusivamente a pesca esportiva. Todos os peixes são devolvidos ao lago com segurança.
+                Praticamos exclusivamente a pesca esportiva. Todos os peixes são
+                devolvidos ao lago com segurança. Proibido o uso de linha
+                multifilamento, anzóis com farpa, isca artificial, alicate de
+                contenção e qualquer equipamento que possa prejudicar os peixes.
+                Proibído entrada com ração para ceva. Não vendemos peixe e nem o
+                matamos para consumo.
               </p>
             </div>
           </div>

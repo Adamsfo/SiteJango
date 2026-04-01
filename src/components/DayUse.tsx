@@ -11,27 +11,52 @@ const DayUse = () => {
             Day Use
           </h2>
           <p className="text-lg text-muted-foreground font-body max-w-xl mx-auto mb-10">
-            Um dia inteiro de lazer, natureza e diversão no Pesque Pague Jango
+            Um dia inteiro de lazer, natureza e diversão com pesca esportiva e
+            uso das piscinas. Ideal para quem quer relaxar e aproveitar o melhor
+            do nosso espaço sem se hospedar.
+            {/* Não inclui almoço, mas o
+            restaurante está à disposição para quem quiser saborear uma refeição
+            deliciosa. Atendimento das 08h às 17:30h. Fechado nas quartas-feiras
+            (exceto feriados). */}
           </p>
 
           <div className="bg-card rounded-xl border border-border p-8 md:p-10 mb-8">
             <div className="mb-6">
-              <span className="text-sm text-muted-foreground font-body">a partir de</span>
+              <span className="text-sm text-muted-foreground font-body">
+                a partir de
+              </span>
               <div>
-                <span className="text-5xl font-bold text-primary font-display">R$ 35</span>
-                <span className="text-muted-foreground font-body ml-2">/pessoa</span>
+                <span className="text-5xl font-bold text-primary font-display">
+                  R$ 35
+                </span>
+                <span className="text-muted-foreground font-body ml-2">
+                  /pessoa
+                </span>
               </div>
-              <p className="text-sm text-muted-foreground font-body mt-1">Valores e opções disponíveis no site</p>
+              <p className="text-sm text-muted-foreground font-body mt-1">
+                Valores e opções para compras antecipadas pelo site.
+              </p>
+              <p className="text-sm text-muted-foreground font-body mt-1 font-bold">
+                Para compra na portaria os valores são maiores.
+              </p>
             </div>
 
             <div className="space-y-4 text-sm text-muted-foreground font-body max-w-md mx-auto">
               <div className="flex items-center gap-3 justify-center">
                 <UtensilsCrossed className="w-5 h-5 text-accent flex-shrink-0" />
-                <span>Almoço <strong className="text-foreground">não incluso</strong> — disponível separadamente no restaurante</span>
+                <span>
+                  Almoço{" "}
+                  <strong className="text-foreground">não incluso</strong> —
+                  disponível separadamente no restaurante
+                </span>
               </div>
               <div className="flex items-center gap-3 justify-center">
                 <AlertCircle className="w-5 h-5 text-warm flex-shrink-0" />
-                <span>Fechado às <strong className="text-foreground">quartas-feiras</strong> (exceto feriados)</span>
+                <span>
+                  Fechado às{" "}
+                  <strong className="text-foreground">quartas-feiras</strong>{" "}
+                  (exceto feriados)
+                </span>
               </div>
             </div>
 
@@ -41,7 +66,11 @@ const DayUse = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity mt-8"
             >
-              <img src={jangoIngressosLogo} alt="Jango Ingressos" className="h-8" />
+              <img
+                src={jangoIngressosLogo}
+                alt="Jango Ingressos"
+                className="h-8"
+              />
               Comprar Day Use
             </a>
           </div>

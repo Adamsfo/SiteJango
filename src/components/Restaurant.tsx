@@ -1,4 +1,15 @@
-import { UtensilsCrossed, Clock, Cake } from "lucide-react";
+import {
+  UtensilsCrossed,
+  Clock,
+  Cake,
+  Soup,
+  Drumstick,
+  Utensils,
+  Fish,
+  GlassWater,
+  Wine,
+  Beer,
+} from "lucide-react";
 
 const Restaurant = () => {
   return (
@@ -22,30 +33,53 @@ const Restaurant = () => {
                 Buffet Self-Service
               </h3>
               <p className="text-sm text-muted-foreground font-body mb-3">
-                Aos finais de semana e feriados, sirva-se à vontade no nosso buffet completo.
+                Aos finais de semana e feriados, sirva-se no nosso buffet
+                completo com sobremesas por quilo. Não é permitido entrada com
+                comida.
+              </p>
+              <p className="text-sm text-muted-foreground font-body mb-3">
+                Horário do Buffet:{" "}
+                <strong className="text-foreground">12:00</strong> às{" "}
+                <strong className="text-foreground">14:30</strong>
               </p>
               <span className="inline-block bg-primary/10 text-primary font-semibold text-sm px-4 py-1.5 rounded-full font-display">
-                R$ 99/kg
+                R$ 99,90/kg
               </span>
             </div>
 
             <div className="bg-card rounded-xl p-8 border border-border text-center hover:shadow-lg transition-shadow">
-              <Cake className="w-10 h-10 text-warm mx-auto mb-4" />
+              <Utensils className="w-10 h-10 text-warm mx-auto mb-4" />
               <h3 className="text-lg font-semibold font-display text-foreground mb-2">
-                À la Carte & Sobremesas
+                À la Carte
               </h3>
               <p className="text-sm text-muted-foreground font-body">
-                Durante a semana, opções à la carte. Variedade de pratos e sobremesas deliciosas todos os dias.
+                Durante a semana, opções à la carte. Variedade de pratos e
+                porções deliciosos. Essa opção é servida aos finais de semana e
+                feriados a partir das 14:00, apos o encerramento do buffet.
               </p>
             </div>
 
             <div className="bg-card rounded-xl p-8 border border-border text-center hover:shadow-lg transition-shadow">
-              <Clock className="w-10 h-10 text-warm mx-auto mb-4" />
+              <Fish className="w-10 h-10 text-warm mx-auto mb-4" />
               <h3 className="text-lg font-semibold font-display text-foreground mb-2">
-                Horário de Funcionamento
+                Porções
               </h3>
               <p className="text-sm text-muted-foreground font-body">
-                Atendemos das <strong className="text-foreground">08:00</strong> às <strong className="text-foreground">17:30</strong>, todos os dias (exceto quartas-feiras).
+                Servimos porções variadas, perfeitas para compartilhar. Ideal
+                para petiscar com os amigos ou para um lanche rápido, das 08:00
+                às 17:00.
+              </p>
+            </div>
+
+            <div className="bg-card rounded-xl p-8 border border-border text-center hover:shadow-lg transition-shadow">
+              <Beer className="w-10 h-10 text-warm mx-auto mb-4" />
+              <h3 className="text-lg font-semibold font-display text-foreground mb-2">
+                Bebidas
+              </h3>
+              <p className="text-sm text-muted-foreground font-body">
+                Não é permitido levar bebidas e nem caixa térmica, nós temos uma
+                seleção de cervejas, drinks, sucos e refrigerantes para
+                acompanhar sua refeição e aproveitar o seu dia.
               </p>
             </div>
           </div>

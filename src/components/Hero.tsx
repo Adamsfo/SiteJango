@@ -13,34 +13,63 @@ const Hero = () => {
         width={1920}
         height={1080}
       />
-      <div className="absolute inset-0" style={{ background: "var(--hero-overlay)" }} />
-      
+      <div
+        className="absolute inset-0"
+        style={{ background: "var(--hero-overlay)" }}
+      />
+
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="flex items-center justify-center gap-3 mb-6 animate-fade-in-up">
-          <img src={logoJango} alt="Pesque Pague Jango" className="h-24 md:h-32" />
+          <img
+            src={logoJango}
+            alt="Pesque Pague Jango"
+            className="h-24 md:h-32"
+          />
         </div>
-        
+
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground text-shadow-hero mb-4 animate-fade-in-up font-display">
           Pesque Pague Jango
         </h1>
-        
-        <p className="text-xl md:text-2xl text-secondary font-light mb-10 animate-fade-in-up font-body" style={{ animationDelay: "0.2s" }}>
-          Diversão, natureza, piscinas e muitos peixes
+
+        <p
+          className="text-xl md:text-2xl text-secondary font-light mb-10 animate-fade-in-up font-body"
+          style={{ animationDelay: "0.2s" }}
+        >
+          Seu refúgio de lazer, pesca e diversão!
         </p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+
+        <div
+          className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
+          style={{ animationDelay: "0.4s" }}
+        >
+          {/* 🔥 NOVO BOTÃO */}
+          <a
+            href="https://wa.me/5565993074619?text=Olá%2C%20quero%20informações%20sobre%20a%20pousada"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
+          >
+            🏡 Reserva Pousada
+          </a>
+
           <a
             href="https://www.jangoingressos.com.br"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 bg-warm text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            <img src={jangoIngressosLogo} alt="Jango Ingressos" className="h-10" />
+            <img
+              src={jangoIngressosLogo}
+              alt="Jango Ingressos"
+              className="h-10"
+            />
             Comprar Day Use
           </a>
           <a
-            href="#sobre"
-            className="inline-flex items-center gap-2 bg-warm text-warm-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
+            href="https://maps.app.goo.gl/HicDX1jJwVsUZKnT8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-primary text-warm-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
           >
             <MapPin className="w-5 h-5" />
             Como chegar

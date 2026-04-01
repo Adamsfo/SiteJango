@@ -2,7 +2,7 @@ import { BedDouble, Clock, Users, Coffee } from "lucide-react";
 
 const prices = [
   { label: "Suíte Solteiro", value: "R$ 300" },
-  { label: "Suíte Casal (com café e day use)", value: "a partir de R$ 400" },
+  { label: "Suíte Casal ", value: "a partir de R$ 400" },
   { label: "Adulto extra", value: "R$ 150" },
   { label: "Criança 0–5 anos", value: "Grátis (cama opcional R$ 60)" },
   { label: "Criança 6–10 anos", value: "R$ 120" },
@@ -19,7 +19,7 @@ const Pousada = () => {
               Pousada
             </h2>
             <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-              Suítes confortáveis com ar-condicionado e TV, para 2 a 6 pessoas
+              Suítes confortáveis com ar-condicionado e TV, para até 6 pessoas
             </p>
           </div>
 
@@ -31,9 +31,12 @@ const Pousada = () => {
                   <BedDouble className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground font-display mb-1">Suítes Equipadas</h3>
+                  <h3 className="font-semibold text-foreground font-display mb-1">
+                    Suítes Equipadas
+                  </h3>
                   <p className="text-sm text-muted-foreground font-body">
-                    Todas as suítes possuem ar-condicionado e TV para seu conforto total.
+                    Todas as suítes possuem ar-condicionado e TV, roupa de cama
+                    e banho para o seu conforto total.
                   </p>
                 </div>
               </div>
@@ -43,9 +46,12 @@ const Pousada = () => {
                   <Users className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground font-display mb-1">Capacidade</h3>
+                  <h3 className="font-semibold text-foreground font-display mb-1">
+                    Capacidade
+                  </h3>
                   <p className="text-sm text-muted-foreground font-body">
-                    Acomoda de 2 a 6 pessoas por suíte, ideal para famílias e grupos.
+                    Acomoda até 6 pessoas por suíte, ideal para famílias e
+                    grupos.
                   </p>
                 </div>
               </div>
@@ -55,9 +61,12 @@ const Pousada = () => {
                   <Coffee className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground font-display mb-1">Café da Manhã Incluso</h3>
+                  <h3 className="font-semibold text-foreground font-display mb-1">
+                    Café da Manhã Incluso
+                  </h3>
                   <p className="text-sm text-muted-foreground font-body">
-                    Suíte casal inclui café da manhã e day use para aproveitar o dia todo.
+                    A diária inclui café da manhã e day use para aproveitar a
+                    sua estadia.
                   </p>
                 </div>
               </div>
@@ -67,9 +76,12 @@ const Pousada = () => {
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground font-display mb-1">Horários</h3>
+                  <h3 className="font-semibold text-foreground font-display mb-1">
+                    Horários
+                  </h3>
                   <p className="text-sm text-muted-foreground font-body">
-                    Check-in a partir das <strong>16:00</strong> · Check-out até as <strong>13:00</strong>
+                    Check-in a partir das <strong>16:00</strong> · Check-out até
+                    as <strong>13:00</strong>
                   </p>
                 </div>
               </div>
@@ -78,12 +90,19 @@ const Pousada = () => {
             {/* Price table */}
             <div className="bg-card rounded-xl border border-border overflow-hidden">
               <div className="bg-primary px-6 py-4">
-                <h3 className="text-lg font-semibold text-primary-foreground font-display">Valores</h3>
+                <h3 className="text-lg font-semibold text-primary-foreground font-display">
+                  Valores
+                </h3>
               </div>
               <div className="divide-y divide-border">
                 {prices.map((item) => (
-                  <div key={item.label} className="flex justify-between items-center px-6 py-4">
-                    <span className="text-sm text-foreground font-body">{item.label}</span>
+                  <div
+                    key={item.label}
+                    className="flex justify-between items-center px-6 py-4"
+                  >
+                    <span className="text-sm text-foreground font-body">
+                      {item.label}
+                    </span>
                     <span className="text-sm font-semibold text-primary font-display whitespace-nowrap ml-4">
                       {item.value}
                     </span>

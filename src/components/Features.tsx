@@ -1,17 +1,39 @@
-import { Fish, TreePine, Utensils, Users, Umbrella, Waves } from "lucide-react";
+import {
+  Fish,
+  TreePine,
+  Utensils,
+  Users,
+  Umbrella,
+  Waves,
+  Bed,
+} from "lucide-react";
+import Gallery from "./Gallery";
+import FacebookTimeline from "./FacebookTimeLine";
 
 const features = [
   {
     icon: Fish,
     title: "Pesca Esportiva",
     description:
-      "Tanques repletos de peixes enormes para uma pescaria inesquecível.",
+      "Tanques repletos de várias espécies de peixes enormes para uma pescaria inesquecível.",
+  },
+  {
+    icon: Waves,
+    title: "Piscinas e Ambiente Familiar",
+    description:
+      "Segurança e diversão para crianças e adultos em um ambiente acolhedor e tranquilo.",
   },
   {
     icon: Utensils,
-    title: "Restaurante",
+    title: "Restaurante climatizado",
     description:
-      "O Jango é conhecido também por ter um delicioso cardápio, composto por comidas típicas da nossa região.",
+      "No nosso restaurante você aproveita peixes fresquinhos, fritos na hora, bem temperados e com aquele gostinho irresistível. Tem também pratos da culinária regional, feitos com carinho e perfeitos pra toda a família.",
+  },
+  {
+    icon: Bed,
+    title: "Pousada",
+    description:
+      "Hospedagem confortável e acolhedora para aproveitar ao máximo sua estadia.",
   },
   {
     icon: TreePine,
@@ -23,19 +45,13 @@ const features = [
     icon: Users,
     title: "Eventos & Confraternizações",
     description:
-      "Espaço ideal para aniversários, encontros de família e confraternizações de empresas.",
+      "Espaço ideal para aniversários, casamentos, encontros de família e confraternizações de empresas.",
   },
-  {
-    icon: Umbrella,
-    title: "Quiosques Cobertos",
-    description: "Quiosques na beira do lago para seu conforto.",
-  },
-  {
-    icon: Waves,
-    title: "Ambiente Familiar",
-    description:
-      "Segurança e diversão para crianças e adultos em um ambiente acolhedor e tranquilo.",
-  },
+  // {
+  //   icon: Umbrella,
+  //   title: "Quiosques Cobertos",
+  //   description: "Quiosques na beira do lago para seu conforto.",
+  // },
 ];
 
 const Features = () => {
