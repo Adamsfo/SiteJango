@@ -19,7 +19,7 @@ const Pousada = () => {
               Pousada
             </h2>
             <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-              Suítes confortáveis com ar-condicionado e TV, para até 6 pessoas
+              Suítes confortáveis com ar-condicionado e TV, para até 6 pessoas.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const Pousada = () => {
                   </h3>
                   <p className="text-sm text-muted-foreground font-body">
                     Todas as suítes possuem ar-condicionado e TV, roupa de cama
-                    e banho para o seu conforto total.
+                    e banho para o seu total conforto.
                   </p>
                 </div>
               </div>

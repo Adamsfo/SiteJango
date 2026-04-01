@@ -22,7 +22,7 @@ const Restaurant = () => {
               Restaurante
             </h2>
             <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-              Sabores caseiros com muita variedade para toda a família
+              Sabores caseiros com muita variedade para toda a família.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const Restaurant = () => {
               <p className="text-sm text-muted-foreground font-body">
                 Durante a semana, opções à la carte. Variedade de pratos e
                 porções deliciosos. Essa opção é servida aos finais de semana e
-                feriados a partir das 14:00, apos o encerramento do buffet.
+                feriados a partir das 14:00, após o encerramento do buffet.
               </p>
             </div>
 

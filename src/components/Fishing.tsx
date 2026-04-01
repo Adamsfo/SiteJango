@@ -18,7 +18,7 @@ const Fishing = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-card rounded-xl p-8 border border-border text-center hover:shadow-lg transition-shadow">
-              <Scale className="w-10 h-10 text-accent mx-auto mb-4" />
+              <Fish className="w-10 h-10 text-accent mx-auto mb-4" />
               <h3 className="text-lg font-semibold font-display text-foreground mb-2">
                 Pesque, Pese e Meça
               </h3>
@@ -50,7 +50,7 @@ const Fishing = () => {
                 devolvidos ao lago com segurança. Proibido o uso de linha
                 multifilamento, anzóis com farpa, isca artificial, alicate de
                 contenção e qualquer equipamento que possa prejudicar os peixes.
-                Proibído entrada com ração para ceva. Não vendemos peixe e nem o
+                Proibido entrada com ração para ceva. Não vendemos peixe e nem o
                 matamos para consumo.
               </p>
             </div>
