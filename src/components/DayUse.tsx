@@ -54,7 +54,9 @@ const DayUse = () => {
                 <AlertCircle className="w-5 h-5 text-warm flex-shrink-0" />
                 <span>
                   Fechado às{" "}
-                  <strong className="text-foreground">quartas-feiras</strong>{" "}
+                  <strong className="text-foreground">
+                    terças e quartas-feiras
+                  </strong>{" "}
                   (exceto feriados)
                 </span>
               </div>
