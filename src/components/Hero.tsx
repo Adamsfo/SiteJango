@@ -44,7 +44,7 @@ const Hero = () => {
         >
           {/* 🔥 NOVO BOTÃO */}
           <a
-            href="https://wa.me/5565993074619?text=Olá%2C%20quero%20informações%20sobre%20a%20pousada"
+            href="https://jangoingressos.com.br/evento?id=5"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
@@ -53,7 +53,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.jangoingressos.com.br"
+            href="https://jangoingressos.com.br/evento?id=1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-warm text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
